@@ -1,0 +1,28 @@
+
+@import url('../style.css');
+
+#header.page-clientes{
+	background-image: url("../../images/background-clientes.jpg");
+}
+
+#customers{
+	background-color: rgb(242, 242, 242);
+}
+
+#customers .container{
+	max-width: 1000px;
+}
+
+#customers .row:last-child{
+	margin-bottom: 80px;
+}
+
+#customers .row:first-child, #customers .row:nth-child(2){
+	margin-bottom: 40px;
+}
+
+@media (max-width: 991px){
+	#customers .col:first-child, #customers .col:nth-child(2){
+		margin-bottom: 40px;
+	}
+}
