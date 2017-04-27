@@ -45,6 +45,10 @@
 	border-radius: 100%;
 }
 
+#sidenav .nav>li.no-status>a:before{
+	display: none;
+}
+
 #sidenav .nav>li.online>a:before{
 	background-color: #2ecc71;
 }
